@@ -17,10 +17,11 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    text-align: justify;
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(157, 161, 161);
     padding: 10px 20px 0px;
 }
 .header {
@@ -33,6 +34,28 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(114, 113, 117);
     min-height: 150px;
+    text-align: center;
+}
+
+table thead th{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+table tbody tr:nth-child(even) td {
+
+    background-color: lightgray;
+    
+}
+
+table tbody tr:hover td {
+
+    background-color: blanchedalmond;
+    cursor: pointer;
+    
 }
